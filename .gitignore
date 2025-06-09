@@ -5,8 +5,10 @@
 
 # executável compilado
 main
-
+*.o
+.vscode/
 output/
+
 
 # User-specific files
 *.rsuser

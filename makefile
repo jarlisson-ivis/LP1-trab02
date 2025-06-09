@@ -1,5 +1,5 @@
 # Nome do executável
-EXEC = output/output_file
+EXEC = main
 
 # Compilador e flags
 CXX = g++
