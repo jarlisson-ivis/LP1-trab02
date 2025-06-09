@@ -8,6 +8,7 @@ void Desenvolvedor::exibirInfo(){
     Funcionario::exibirInfo();
 
     // Exibe informações específicas do Desenvolvedor
+    cout << "Tipo: Desenvolvedor" << endl;
     cout << "Quantidade de Projetos: " << this->quantidadeProjetos << endl;
     cout << "Salario Final: " << this->calcularSalarioFinal() << endl;
 };
