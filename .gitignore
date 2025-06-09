@@ -6,6 +6,8 @@
 # executável compilado
 main
 
+output/
+
 # User-specific files
 *.rsuser
 *.suo
