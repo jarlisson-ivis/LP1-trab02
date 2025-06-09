@@ -6,7 +6,7 @@ CXX = g++
 CXXFLAGS = -Wall -Wextra -g3
 
 # Arquivos fonte
-SRCS = main.cpp
+SRCS = main.cpp desenvolvedor.cpp estagiario.cpp gerente.cpp funcionario.cpp
 
 # Objetos gerados (.o)
 OBJS = $(SRCS:.cpp=.o)
