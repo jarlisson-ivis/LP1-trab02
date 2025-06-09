@@ -7,6 +7,7 @@ class Estagiario : public Funcionario {
     private:
         int horasTrabalhadas;
     public:
+        void setHorasTrabalhadas(int horas);
         void exibirInfo() override;
         float calcularSalarioFinal() override;
 };

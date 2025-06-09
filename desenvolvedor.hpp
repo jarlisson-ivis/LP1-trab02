@@ -11,6 +11,11 @@ class Desenvolvedor : public Funcionario {
     public:
         void exibirInfo() override;
         float calcularSalarioFinal() override;
+        
+        // setters
+        void setQuantidadeProjetos(int quantidade) {
+            this->quantidadeProjetos = quantidade;
+        }
 };
 
 #endif

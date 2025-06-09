@@ -3,6 +3,10 @@
 #include <iostream>
 using namespace std;
 
+void Desenvolvedor::setQuantidadeProjetos(int quantidade) {
+    this->quantidadeProjetos = quantidade;
+}
+
 void Desenvolvedor::exibirInfo(){
     // Chama o método exibirInfo da classe pai: Funcionario
     Funcionario::exibirInfo();

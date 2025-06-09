@@ -3,6 +3,10 @@
 #include <iostream>
 using namespace std;
 
+void Gerente::setBonusMensal(float bonus) {
+    this->bonusMensal = bonus;
+}
+
 void Gerente::exibirInfo() {
     // Chama o método exibirInfo da classe pai: Funcionario
     Funcionario::exibirInfo();

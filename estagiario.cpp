@@ -3,6 +3,10 @@
 #include <iostream>
 using namespace std;
 
+void Estagiario::setHorasTrabalhadas(int horas) {
+    this->horasTrabalhadas = horas;
+}
+
 void Estagiario::exibirInfo() {
     // Chama o método exibirInfo da classe pai: Funcionario
     Funcionario::exibirInfo();

@@ -7,6 +7,7 @@ class Gerente : public Funcionario {
     private:
         float bonusMensal;
     public:
+        void setBonusMensal(float bonus);
         void exibirInfo() override;
         float calcularSalarioFinal() override; 
 };
