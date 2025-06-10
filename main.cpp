@@ -13,7 +13,7 @@ int main() {
     Funcionario* funcionarios[10];
     int totalFuncionarios = 0;
 
-    while (totalFuncionarios < 6) {
+    while (totalFuncionarios < 10) {
         cout << "\nCadastro de Funcionário #" << (totalFuncionarios + 1) << endl;
         cout << "Escolha o tipo (1 - Desenvolvedor, 2 - Estagiario, 3 - Gerente): ";
         int tipo;
