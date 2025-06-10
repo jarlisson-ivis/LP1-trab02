@@ -29,9 +29,11 @@ int Funcionario::getId() {
 };
 
 void Funcionario::exibirInfo() {
-    cout << "Nome: " << this->nome << endl;
-    cout << "Salario Base: " << this->salarioBase << endl;
-    cout << "ID: " << this->id << endl;
+    cout << "ID: " << getId() << endl;
+    cout << "Nome: " << getNome() << endl;
+    cout << "Tipo: Genérico" << endl;
+    cout << "Salario Base: " << getSalario() << endl;
+    cout << "Salario Final: " << getSalario() << endl;
 };
 
 

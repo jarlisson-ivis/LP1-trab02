@@ -85,7 +85,8 @@ int main() {
 
     for (int i = 0; i < totalFuncionarios; i++) {
         funcionarios[i]->exibirInfo();
-        cout << "Salario final: " << funcionarios[i]->calcularSalarioFinal() << "\n\n";
+        cout << endl;
+        //cout << "Salario final: " << funcionarios[i]->calcularSalarioFinal() << "\n\n"; -- Removido pois cada subclasse ja imprime 
     }
 
     return 0;

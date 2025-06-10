@@ -8,13 +8,12 @@ void Gerente::setBonusMensal(float bonus) {
 }
 
 void Gerente::exibirInfo() {
-    // Chama o método exibirInfo da classe pai: Funcionario
-    Funcionario::exibirInfo();
-
-    // Exibe informações específicas do Gerente
+    cout << "ID: " << getId() << endl;
+    cout << "Nome: " << this->nome << endl;
     cout << "Tipo: Gerente" << endl;
-    cout << "Bônus Mensal: " << this->bonusMensal << endl;
-    cout << "Salário Final: " << this->calcularSalarioFinal() << endl;
+    cout << "Bônus: " << this->bonusMensal << endl;
+    cout << "Salario Base: " << this->salarioBase << endl;
+    cout << "Salario Final: " << this->calcularSalarioFinal() << endl;
 }
 
 float Gerente::calcularSalarioFinal() {

@@ -8,12 +8,11 @@ void Desenvolvedor::setQuantidadeProjetos(int quantidade) {
 }
 
 void Desenvolvedor::exibirInfo(){
-    // Chama o método exibirInfo da classe pai: Funcionario
-    Funcionario::exibirInfo();
-
-    // Exibe informações específicas do Desenvolvedor
+    cout << "ID: " << getId() << endl;
+    cout << "Nome: " << this->nome << endl;
     cout << "Tipo: Desenvolvedor" << endl;
-    cout << "Quantidade de Projetos: " << this->quantidadeProjetos << endl;
+    cout << "Projetos: " << this->quantidadeProjetos << endl;
+    cout << "Salario Base: " << this->salarioBase << endl;
     cout << "Salario Final: " << this->calcularSalarioFinal() << endl;
 };
 
