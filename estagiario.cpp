@@ -8,15 +8,14 @@ void Estagiario::setHorasTrabalhadas(int horas) {
 }
 
 void Estagiario::exibirInfo() {
-    // Chama o método exibirInfo da classe pai: Funcionario
-    Funcionario::exibirInfo();
-
-    // Exibe informações específicas do Estagiário
+    cout << "ID: " << getId() << endl;
+    cout << "Nome: " << this->nome << endl;
     cout << "Tipo: Estagiário" << endl;
     cout << "Horas Trabalhadas: " << this->horasTrabalhadas << endl;
-    cout << "Salário Final: " << this->calcularSalarioFinal() << endl;
+    cout << "Salario Base: " << this->salarioBase << endl;
+    cout << "Salario Final: " << this->calcularSalarioFinal() << endl;
 }
 
 float Estagiario::calcularSalarioFinal() {
-    return this->salarioBase * (this->horasTrabalhadas / 160);
+    return this->salarioBase * (this->horasTrabalhadas / 160.0);
 }
