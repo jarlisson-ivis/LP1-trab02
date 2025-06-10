@@ -5,4 +5,4 @@ LP1 - Trabalho 02
 Entra no diretório do projeto e rodar
 make
 Então rodar o executável
-./output/output_file
+./main
